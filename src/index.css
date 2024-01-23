@@ -1,0 +1,42 @@
+:root {
+ /* styles.css */
+
+/* Common styles for all screen sizes */
+
+/* Larger screens (default) */
+body {
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  /* Add more specific styles for smaller screens */
+}
+
+/* Media query for even smaller screens, like phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  /* Adjust styles further for smaller screens */
+}
+
+}
